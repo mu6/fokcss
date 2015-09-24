@@ -1,0 +1,70 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+table,th, td {
+	border: 1px solid black;
+	vertical-align:top;
+	padding:3px;
+}
+html, body {
+	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #52697E;
+}
+body {
+	overflow: auto;
+	margin:24px;
+}
+
+h1 {
+	font-size: 21px;
+	height: 47px;
+	line-height: 47px;
+	text-transform: uppercase;
+}
+
+input[type=text]{
+	border:1px solid #fff;
+	background-color:#ddd;
+}
+input[type=checkbox]{
+	width:19px;
+	height:19px;
+}
+
+span.vakje{
+	border:1px solid #000;
+}
+
+p.red{
+	color:#f00;
+}
+p.red input{
+	border:1px solid #f00;
+}
+legend{
+	font-weight:bold;
+	font-size:21px;
+}
+div.help {
+	border:1px solid grey;
+}
+input.colorinput{
+	width:55px;
+	border:1px solid #ddd;
+	text-transform:lowercase;
+}
+tr:target{
+	background-color:#ddd;
+}
+
+fieldset{
+	padding:7px;
+}
